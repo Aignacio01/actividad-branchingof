@@ -33,12 +33,15 @@ En lugar de trabajar directamente en `main`:
 ---
 ...
 
+
 ## ✅ Conclusión
 
 
 
 Las ramas son fundamentales porque permiten trabajar de forma ordenada y segura, evitando errores en el código principal y facilitando el desarrollo en equipo.
+
 ---
+
 
 
 
