@@ -42,9 +42,22 @@ Las ramas son fundamentales porque permiten trabajar de forma ordenada y segura,
 
 ---
 
+## Aporte Allan Núñez
+
+## 1. ¿Qué es un commit?
+Es una captura del estado de un archivo (o conjunto de archivos). Este captura el **cuándo**, **quién** y **lo que** se modificó en el proyecto.
+
+## 2. ¿Qué ventaja tiene?
+* **Claridad:** Facilita el entendimiento de lo que se hizo en cada etapa.
+* **Seguridad:** Se puede volver a un punto específico en el tiempo por si hubo errores.
+* **Colaboración:** Se pueden revisar y comparar los cambios entre las personas del grupo de trabajo.
+
+## 3. ¿Cómo ayudan a entender?
+Funciona como una **línea de tiempo** que registra todos los cambios que se han realizado, permitiendo que todos los participantes puedan visualizar la evolución del código.
 
 
 
+---
 
 # Respuesta-Alumno-DiegoContreras
 
