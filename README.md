@@ -73,3 +73,31 @@ Las ramas son fundamentales porque permiten trabajar de forma ordenada y segura,
    4. Dividir bien el trabajo
       Cada persona trabaja en archivos o módulos distintos. Si el equipo tiene clara la separación de responsabilidades, los          conflictos bajan mucho.
    
+---
+
+## Trabajo de Kevin Lizama
+
+1. Branch vs. Fork: Gestión de Flujos de Trabajo
+En el ecosistema de Git y plataformas como GitHub, la diferencia fundamental entre estos conceptos radica en el alcance (scope) y la propiedad (ownership) del repositorio.
+
+¿Qué es una Branch (Rama)?
+Es una línea de desarrollo separada dentro del mismo repositorio. Técnicamente, una rama es un puntero móvil que apunta a un commit específico. Permite desarrollar funcionalidades o corregir errores de forma aislada, sin afectar la línea principal (main o master) hasta que los cambios sean validados.
+
+¿Qué es un Fork?
+Un Fork no es un comando nativo de Git, sino una funcionalidad de plataformas de hosting (como GitHub). Es una copia completa y remota de un repositorio que se aloja en la cuenta personal del usuario. A diferencia de la rama, el fork genera un repositorio independiente con su propio historial y permisos de acceso específicos.
+
+Cuándo se usa cada uno
+Branch: Se utiliza para el desarrollo diario dentro de un equipo que posee permisos de escritura en el repositorio. Es el componente esencial del modelo de Feature Branching.
+
+Fork: Se utiliza principalmente en proyectos de Open Source o cuando se desea contribuir a un proyecto donde no se tienen permisos directos de colaboración. Permite experimentar libremente sin riesgo de alterar el proyecto original.
+
+Por qué GitHub usa forks para contribuir a proyectos ajenos
+El uso de forks responde a un principio de seguridad y control de acceso (conocido como Principio de Menor Privilegio). Dado que un colaborador externo no es dueño del repositorio original (upstream), no posee permisos para realizar un push directamente.
+
+El flujo de trabajo estándar bajo este modelo es:
+
+Realizar un Fork: El colaborador obtiene su propia copia del proyecto.
+
+Desarrollo Local: Se trabaja en la copia personal (fork).
+
+Pull Request (PR): Se envían los cambios desde el fork hacia el repositorio original para que el administrador los revise, comente y, finalmente, realice el merge si cumplen con los estándares de calidad.
