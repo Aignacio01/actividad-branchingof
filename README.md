@@ -72,4 +72,47 @@ Las ramas son fundamentales porque permiten trabajar de forma ordenada y segura,
 
    4. Dividir bien el trabajo
       Cada persona trabaja en archivos o módulos distintos. Si el equipo tiene clara la separación de responsabilidades, los          conflictos bajan mucho.
-   
+
+----
+## Alumno 3 - Natalia Medel
+## ¿Qué es main y por qué se protege?
+## 1. ¿Qué representa main en un proyecto?
+
+La rama main es la versión principal del proyecto.
+Es donde está el código “oficial”, el que debería funcionar bien y sin errores.
+
+👉 Piensa en main como la versión final o lista para usar del proyecto.
+
+## 2. ¿Por qué no debería usarse para cambios directos?
+
+Porque si haces cambios directamente ahí, puedes:
+
+Romper algo que ya funcionaba
+
+Introducir errores (bugs)
+
+Afectar a otras personas que usan ese código
+
+👉 Por eso, normalmente se crean otras ramas (branches) para trabajar y probar cambios antes de llevarlos a main.
+
+## 3. ¿Por qué es importante mantenerla estable?
+
+Porque main debe ser:
+
+Confiable
+
+Funcional
+
+Lista para usarse en cualquier momento
+
+Si main tiene errores, todo el proyecto puede fallar.
+
+👉 Mantenerla estable asegura que siempre haya una versión que funcione correctamente.
+
+🧠 Resumen corto
+
+main = la versión oficial del proyecto
+
+No se usa directamente para evitar errores
+
+Se protege para mantener el proyecto funcionando bien
